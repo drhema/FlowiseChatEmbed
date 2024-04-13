@@ -3,6 +3,7 @@
 # Flowise Embed
 
 Javascript library to display flowise chatbot on your website
+https://www.youtube.com/watch?v=4MSxi6-RYCI
 
 ![Flowise](https://github.com/FlowiseAI/FlowiseChatEmbed/blob/main/images/ChatEmbed.gif?raw=true)
 
