@@ -35,4 +35,27 @@ export const Badge = (props: Props) => {
   onCleanup(() => {
     if (observer) observer.disconnect();
   });
+
+  return (
+    <span
+      class="w-full text-center px-[10px] pt-[6px] pb-[10px] m-auto text-[13px]"
+      style={{
+        color: props.poweredByTextColor ?? defaultTextColor,
+        'background-color': props.badgeBackgroundColor ?? '#ffffff',
+      }}
+    >
+      Powered by
+      <a
+        ref={liteBadge}
+        href={'https://onpage.ai'}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="lite-badge"
+        id="lite-badge"
+        style={{ 'font-weight': 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
+      >
+        <span> Onpage.ai</span>
+      </a>
+    </span>
+  );
 };
