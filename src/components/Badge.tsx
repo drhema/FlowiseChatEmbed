@@ -52,7 +52,7 @@ export const Badge = (props: Props) => {
         rel="noopener noreferrer"
         class="lite-badge"
         id="lite-badge"
-        style={{ fontWeight: 'lighter', color: props.poweredByTextColor ?? '#ffffff' }}
+        style={{ 'font-weight': 'lighter', color: props.poweredByTextColor ?? '#ffffff' }}
       >
         <span> Onpage.ai</span>
       </a>
