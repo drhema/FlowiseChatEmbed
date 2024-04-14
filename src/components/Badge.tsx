@@ -40,7 +40,7 @@ export const Badge = (props: Props) => {
     <span
       class="w-full text-center px-[10px] pt-[6px] pb-[10px] m-auto text-[13px]"
       style={{
-        color: props.poweredByTextColor ?? defaultTextColor,
+        color: props.poweredByTextColor ?? '#ffffff',
         'background-color': props.badgeBackgroundColor ?? '#ffffff',
       }}
     >
@@ -52,7 +52,7 @@ export const Badge = (props: Props) => {
         rel="noopener noreferrer"
         class="lite-badge"
         id="lite-badge"
-        style={{ 'font-weight': 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
+        style={{ fontWeight: 'lighter', color: props.poweredByTextColor ?? '#ffffff' }}
       >
         <span> Onpage.ai</span>
       </a>

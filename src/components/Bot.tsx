@@ -988,7 +988,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
 
 // type BottomSpacerProps = {
 //   ref: HTMLDivElement | undefined;
-// };
+// };https://chat.openai.com/c/78cd3255-fb92-4175-a674-37163f3e456b
 // const BottomSpacer = (props: BottomSpacerProps) => {
 //   return <div ref={props.ref} class="w-full h-32" />;
 // };
